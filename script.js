@@ -18,3 +18,4 @@ document.querySelector("#showDistance").innerHTML = "<span>Puolimatka:</span> 1,
 function full() {
 document.querySelector("#showDistance").innerHTML = "<span>Täysmatka (Ironman-matka):</span>  3,8 kilometriä uintia, 180 kilometriä pyöräilyä ja maratonjuoksu (42,195 kilometriä).";
 }
+
