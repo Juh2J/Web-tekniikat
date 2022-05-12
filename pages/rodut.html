@@ -11,10 +11,10 @@
     <!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/8902a277f0.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="rodut">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">triathlon</a>
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-cat"></i></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,10 +24,10 @@
             <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="matkat.html"><i class="fa-solid fa-shoe-prints"></i> Matkat</a>
+            <a class="nav-link" href="rodut.html"><i class="fa-solid fa-cat-space"></i> Rodut</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="historia.html"><i class="fa-solid fa-ranking-star"></i> Historia</a>
+            <a class="nav-link" href="vitsit.html"><i class="fa-duotone fa-cat-space"></i> Vitsit</a>
           </li>
         </ul>
       </div>
@@ -38,24 +38,8 @@
         <div class="row align-items-center justify-content-around flex-row-reverse">
             <div class="col-lg-6">
                 <div class="about-text">
-                    <h3 class="dark-color">Eri kilpailumatkat</h3>
-                    <p>Triathlonissa järjestetään erimittaisia kilpailuja. Niin sanottuna kuninkuusmatkana pidetään täysmatkaa. 
-                      Siihen kuuluu 3,8 kilometriä uintia, 180 kilometriä pyöräilyä ja maratonjuoksu. 
-                      Suurin osa kilpailuista on selvästi lyhyempiä, ja esimerkiksi olympialaisissa kilpaillaan niin sanotussa varttimatkassa, joka on noin neljäsosa täysmatkan pituudesta.<br>
-
-                      Tärkeimmät triathlon-matkat ovat: <br>
-
-                      <button type="button" id="sprint" onclick="sprint()" class="btn btn-info">Sprinttimatka</button>
-                      <button type="button" id="olympia" onclick="olympia()" class="btn btn-info">Perusmatka</button>
-                      <button type="button" id="half" onclick="half()" class="btn btn-info">Puolimatka</button>
-                      <button type="button" id="full" onclick="full()" class="btn btn-info">Täysmatka</button>
-
-                      <p id="showDistance"></p>
-
-                      <button type="button" id="record1" onclick="record1()" class="btn btn-info">Maailmanennätys</button>
-                      <button type="button" id="record2" onclick="record2()" class="btn btn-info">Suomenennätys</button>
-                      
-                      <p id="showRecord"></p>
+                    <h2 class="dark-color">Kissarodut</h2>
+                    <h3>Rotukissat on jaettu turkin pituuden, rakenteen yms. perusteella neljään eri kategoriaan.</h3>           
                 </div>
             </div>
 
@@ -63,55 +47,84 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Sprintin maailmanennätys
+                    Kategoria 1 rodut:
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                   <div class="accordion-body">
-                    51:15
+                    Exotic <br>
+                    Persialainen <br>
+                    Pyhä Birma <br>
+                    Ragdoll <br>
+                    Turkkilainen Van
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    Olympianmatkan maailmanennätys
+                    Kategoria 2 rodut:
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
-                    1:46:25
+                    American curl <br>
+                    LaPerm <br>
+                    Maine Coon <br>
+                    Neva Masquerade <br>
+                    Norjalainen metsäkissa
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    Puolimatkan maailmanennätys
+                    Kategorian 3 rodut:
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                   <div class="accordion-body">
-                    3:29:04
+                    Bengali <br>
+                    Burma <br>
+                    Burmilla <br>
+                    Cymric <br>
+                    Kartusiaani
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
-                    Täysimatan maailmanennätys
+                    Kategorian 4 rodut:
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                   <div class="accordion-body">
-                    7:21:12
+                    Abessiinialainen <br>
+                    Balineesi <br>
+                    Devon rex <br>
+                    Don sfinx <br>
+                    German rex
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+            <h3> Esimerkkejä eri roduista </h3>
 
-            
-        </div>
+            <button type="button" id="ShowCat1" onclick="cat1()" class="btn btn-info">Persialainen</button>
+            <button type="button" id="ShowCat2" onclick="cat2()" class="btn btn-info">American Curl</button>
+            <button type="button" id="ShowCat3" onclick="cat3()" class="btn btn-info">Bengali</button>
+            <button type="button" id="ShowCat4" onclick="cat4()" class="btn btn-info">Abessiinialainen</button>
+
+          <div class="col-sm-5">
+              
+              <p id="showCat"></p>
+              
+              <div 
+                class="d-none d-lg-block" id="catPicture">
+              </div>                          
+          </div>
     </div>
 
 

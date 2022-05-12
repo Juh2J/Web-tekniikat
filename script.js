@@ -1,21 +1,83 @@
 
 
-document.getElementById('record1').style.visibility='hidden';
-document.getElementById('record2').style.visibility='hidden';
 
-function sprint() {
-document.querySelector("#showDistance").innerHTML = "<span>Sprinttimatka:</span>  750 metriä uintia, 20 kilometriä pyöräilyä ja viisi kilometriä juoksua.";
+function cat1() {
+
+document.querySelector("#catPicture").innerHTML="";
+
+document.querySelector("#showCat").innerHTML = "<span>Persialainen</span> on kotikissarotu, joka tunnetaan pitkäkarvaisuudestaan ja lyhyestä kuonostaan.";
+
+let img = document.createElement("img");
+img.src = "../pictures/persialainen.jpg";
+let div = document.getElementById("catPicture");
+div.appendChild(img);
 }
 
-function olympia() {
-document.querySelector("#showDistance").innerHTML = "<span>Perusmatka eli olympiamatka:</span> 1,5 kilometriä uintia, 40 kilometriä pyöräilyä ja kymmenen kilometriä juoksua.";
+function cat2() {
+
+document.querySelector("#catPicture").innerHTML="";
+
+document.querySelector("#showCat").innerHTML = "<span>American Curl</span> Rodulle on tyypillistä erikoisen näköiset korvat, jotka kiertyvät taakse poispäin kasvoista.";
+
+
+let img = document.createElement("img");
+img.src = "../pictures/american_curl.jpg";
+let div = document.getElementById("catPicture");
+div.appendChild(img);
 }
 
-function half() {
-document.querySelector("#showDistance").innerHTML = "<span>Puolimatka:</span> 1,9 kilometriä uintia, 90 kilometriä pyöräilyä ja 21 kilometriä juoksua.";
+
+
+function cat3() {
+
+document.querySelector("#catPicture").innerHTML="";
+
+document.querySelector("#showCat").innerHTML = "<span>Bengali</span>Tyypillistä bengalille ovat lihaksikas ja pitkänomainen vartalo ja pienehkö pää suhteessa vartaloon.";
+
+let img = document.createElement("img");
+img.src = "../pictures/bengal.jpg";
+let div = document.getElementById("catPicture");
+div.appendChild(img);
+
 }
 
-function full() {
-document.querySelector("#showDistance").innerHTML = "<span>Täysmatka (Ironman-matka):</span>  3,8 kilometriä uintia, 180 kilometriä pyöräilyä ja maratonjuoksu (42,195 kilometriä).";
+function cat4() {
+
+document.querySelector("#catPicture").innerHTML="";
+
+document.querySelector("#showCat").innerHTML = "<span>Abessiinialainen</span> on leikkisä ja hieman pienikokoista puumaa muistuttava kissarotu. Se on yksi vanhimmista tunnetuista kissaroduista, ja sen tunnusmerkki on turkin ticking-kuviointi.";
+
+let img = document.createElement("img");
+img.src = "../pictures/abessiinialainen.jpg";
+let div = document.getElementById("catPicture");
+div.appendChild(img);
+
 }
 
+
+
+fetch('https://catfact.ninja/fact?max_length=140')
+    .then(response => response.json())
+    .then(data =>  document.getElementById('restApi').innerHTML = data.fact);
+    
+function joke1() {
+
+document.querySelector("#showJoke").innerHTML="";
+        
+document.querySelector("#showJoke").innerHTML = "Mitä kissa sanoi kun näki koiran? Miau....";
+}       
+
+function joke2() {
+
+    document.querySelector("#showJoke").innerHTML="";
+            
+    document.querySelector("#showJoke").innerHTML = "Pitääkö kissasi lapsista? Pitää mutta enemmän se tykkää silakoista.";
+}       
+    
+
+function joke3() {
+
+    document.querySelector("#showJoke").innerHTML="";
+                
+    document.querySelector("#showJoke").innerHTML = "Mikä suklaa on kielletty kissoilta? Tietysti Nougat.";
+}       
