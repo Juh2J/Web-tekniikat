@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="../script.js"> defer </script>
-    <link rel="stylesheet" href="../styles/scss/built_style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/8902a277f0.js" crossorigin="anonymous"></script>
+   <!--Google fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body id="rodut">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="navbar2" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><i class="fa-solid fa-cat"></i></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +28,10 @@
             <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="rodut.html"><i class="fa-solid fa-cat-space"></i> Rodut</a>
+            <a class="nav-link" href="rodut.html"><i class="fa-solid fa-cat-space"></i>Rotukategoriat</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="vitsit.html"><i class="fa-duotone fa-cat-space"></i> Vitsit</a>
+            <a class="nav-link" href="vitsit.html"><i class="fa-duotone fa-cat-space"></i>Vitsit & Esimerkit</a>
           </li>
         </ul>
       </div>
@@ -35,14 +39,16 @@
 </nav>
 
     <div class="container">
-        <div class="row align-items-center justify-content-around flex-row-reverse">
+        <div class="row">
             <div class="col-lg-6">
-                <div class="about-text">
-                    <h2 class="dark-color">Kissarodut</h2>
+                <div>
+                    <h1> Kissarodut </h1>
+                </div>
+                <div>
                     <h3>Rotukissat on jaettu turkin pituuden, rakenteen yms. perusteella neljään eri kategoriaan.</h3>           
                 </div>
             </div>
-
+          
             <div class="accordion" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -110,21 +116,7 @@
               </div>
             </div>
           </div>
-            <h3> Esimerkkejä eri roduista </h3>
-
-            <button type="button" id="ShowCat1" onclick="cat1()" class="btn btn-info">Persialainen</button>
-            <button type="button" id="ShowCat2" onclick="cat2()" class="btn btn-info">American Curl</button>
-            <button type="button" id="ShowCat3" onclick="cat3()" class="btn btn-info">Bengali</button>
-            <button type="button" id="ShowCat4" onclick="cat4()" class="btn btn-info">Abessiinialainen</button>
-
-          <div class="col-sm-5">
-              
-              <p id="showCat"></p>
-              
-              <div 
-                class="d-none d-lg-block" id="catPicture">
-              </div>                          
-          </div>
+            
     </div>
 
 
