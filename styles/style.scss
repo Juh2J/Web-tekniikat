@@ -21,6 +21,7 @@ $nav_font_size: 25px;
 }
 
 #frontH1 { 
+    text-align: center;
     padding-top: 100px;
     color: black;
     font-size: 40px;
@@ -43,6 +44,7 @@ p{
 }
 
 #restApi{
+    text-align: center;
     font-size: 27px;
     border: solid black;
    
@@ -50,14 +52,12 @@ p{
 }
 
 
-.container-fluid{
-    color: cornflowerblue;
-}
+
 
 #showJoke{
-
-    font-size: 40px;
-    color: bisque;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
 }
 
 #navbarNav{
@@ -66,7 +66,8 @@ p{
 }
 
 #firstCircle {
-    font-size: 0.7em;
+    margin: 20px;
+    font-size: 1.0em;
     height: 180px;
     width: 180px;
     border-radius: 50%;
@@ -75,6 +76,8 @@ p{
 }
 
 #secondCircle{
+    margin: 20px;
+    
     font-size: 1.0em;
     height: 180px;;
     width: 180px;
@@ -150,3 +153,24 @@ color: $button_colour;
     background-color: $button_colour;
 }
 
+#rodutH1{
+
+    text-align: center;
+}
+
+#rodutH3{
+
+    text-align: center;
+}
+
+#infoTxt{
+
+    text-align: center;
+}
+
+
+.btn.btn-success{
+
+    background-color: #f2e68f;
+    color: black;
+}
