@@ -71,7 +71,7 @@ function joke2() {
 
     document.querySelector("#showJoke").innerHTML="";
             
-    document.querySelector("#showJoke").innerHTML = "Pitääkö kissasi lapsista? Pitää mutta enemmän se tykkää silakoista.";
+    document.querySelector("#showJoke").innerHTML = "Pitääkö kissasi lapsista? Pitää, mutta enemmän se tykkää silakoista.";
 }       
     
 

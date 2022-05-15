@@ -1,16 +1,16 @@
 #rodut {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #67cfc8;
+  background-color: #71f5ec;
 }
 
 #index {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #67cfc8;
+  background-color: #71f5ec;
 }
 
 #vitsit {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #67cfc8;
+  background-color: #71f5ec;
 }
 
 #frontH1 {
@@ -148,5 +148,11 @@ p {
 .btn.btn-success {
   background-color: #f2e68f;
   color: black;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
