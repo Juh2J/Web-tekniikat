@@ -51,7 +51,7 @@ p {
   color: aqua;
 }
 
-#firstBlk {
+#firstCircle {
   font-size: 0.7em;
   height: 180px;
   width: 180px;
@@ -61,7 +61,7 @@ p {
           box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-#secondBlk {
+#secondCircle {
   font-size: 1.0em;
   height: 180px;
   width: 180px;
@@ -94,14 +94,26 @@ p {
   border-bottom: 1px solid gray;
 }
 
+#navbar a {
+  font-size: 25px;
+}
+
 #navbar2 {
   background-color: #f2e68f !important;
   border-bottom: 1px solid gray;
 }
 
+#navbar2 a {
+  font-size: 25px;
+}
+
 #navbar3 {
   background-color: #f2e68f !important;
   border-bottom: 1px solid gray;
+}
+
+#navbar3 a {
+  font-size: 25px;
 }
 
 #catPicture {
@@ -110,5 +122,13 @@ p {
 
 .btn {
   color: #bbfc95;
+}
+
+.accordion-body {
+  background-color: #f2e68f;
+}
+
+.accordion-button.collapsed {
+  background-color: #bbfc95;
 }
 /*# sourceMappingURL=style.css.map */
