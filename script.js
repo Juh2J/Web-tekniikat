@@ -81,3 +81,23 @@ function joke3() {
                 
     document.querySelector("#showJoke").innerHTML = "Mikä suklaa on kielletty kissoilta? Tietysti Nougat.";
 }       
+
+function mouseOver() {
+    document.getElementById("frontH1").style.color = "orange"
+    document.getElementById("frontH1").style.fontSize = "50px";
+  }
+  
+  function mouseOut() {
+    document.getElementById("frontH1").style.color = "black"
+    document.getElementById("frontH1").style.fontSize = "40px";
+  }
+
+  function mouseOver2() {
+    document.querySelector("#rodutH1").style.color = "orange"
+    document.querySelector("#rodutH1").style.fontSize = "50px";
+  }
+  
+  function mouseOut2() {
+    document.querySelector("#rodutH1").style.color = "black"
+    document.querySelector("#rodutH1").style.fontSize = "40px";
+  }
