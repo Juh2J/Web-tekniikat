@@ -3,6 +3,7 @@ $background_colour: rgb(103, 207, 200);
 $font_colour: black;
 $nav_colour:#f2e68f;
 $button_colour:#bbfc95;
+$nav_font_size: 25px;
 
 #rodut{
     font-family:Arial, Helvetica, sans-serif;
@@ -64,7 +65,7 @@ p{
     color: aqua;
 }
 
-#firstBlk {
+#firstCircle {
     font-size: 0.7em;
     height: 180px;
     width: 180px;
@@ -73,7 +74,7 @@ p{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-#secondBlk{
+#secondCircle{
     font-size: 1.0em;
     height: 180px;;
     width: 180px;
@@ -104,17 +105,29 @@ p{
 #navbar {
     background-color: $nav_colour !important;
     border-bottom: 1px solid gray;
+    a{
+        font-size: $nav_font_size;
+    }
 }
 
 #navbar2 {
     background-color: $nav_colour !important;
     border-bottom: 1px solid gray;
+    a{
+        font-size: $nav_font_size;
+    }
 }
 
 #navbar3 {
     background-color: $nav_colour !important;
     border-bottom: 1px solid gray;
+    a{
+        font-size: $nav_font_size;
+    
+    }
 }
+
+
 
 #catPicture{
     margin: 40px;
@@ -126,3 +139,14 @@ p{
 color: $button_colour;
 
 }
+
+.accordion-body{
+
+    background-color: $nav_colour;
+}
+
+.accordion-button.collapsed{
+
+    background-color: $button_colour;
+}
+
