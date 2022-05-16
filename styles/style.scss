@@ -3,7 +3,7 @@ $background_colour: rgb(113, 245, 236);
 $font_colour: black;
 $nav_colour:#f2e68f;
 $button_colour:#bbfc95;
-$nav_font_size: 25px;
+$nav_font_size: 20px;
 
 
 #rodut{
@@ -28,6 +28,7 @@ $nav_font_size: 25px;
     font-size: 40px;
     
 }
+
 
 h2{
     color: $font_colour;
@@ -67,6 +68,7 @@ p{
 }
 
 #firstCircle {
+    
     margin: 20px;
     font-size: 1.0em;
     height: 180px;
@@ -86,6 +88,7 @@ p{
     background-color: #f2e68f;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 
 #frontClick1{
     background-color:#bbfc95;
@@ -182,3 +185,4 @@ color: $button_colour;
     width: 100%;
               
   }
+
