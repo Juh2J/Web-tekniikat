@@ -82,6 +82,11 @@ p {
   color: black;
 }
 
+#newFact {
+  color: black;
+  background-color: #bbfc95;
+}
+
 #button1 {
   margin: 10px;
 }
