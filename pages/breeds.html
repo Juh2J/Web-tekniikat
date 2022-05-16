@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--oma JS -->
     <script src="../javascript/script.js"> defer </script>
+    <!--oma CSS -->
     <link rel="stylesheet" href="../styles/style.css">
+    <!--Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/8902a277f0.js" crossorigin="anonymous"></script>
@@ -15,7 +18,8 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
-<body id="rodut">
+<body id="breeds">
+  <!-- Navbar alkaa -->
   <nav id="navbar2" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><i class="fa-solid fa-cat"></i></a>
@@ -36,27 +40,29 @@
         </ul>
       </div>
     </div>
-</nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div>
-                  <h1 id="rodutH1" onmouseover="mouseOver2()" onmouseout="mouseOut2()">Rotukategoriat</h1>
-                </div>
-                <div>
-                    <h3 id="rodutH3" >Rotukissat on jaettu turkin pituuden, rakenteen yms. perusteella neljään eri kategoriaan.</h3>           
-                </div>
+  </nav>
+ <!-- Navbar loppuu -->
+  <div class="container">
+    <!-- Otsikot-->
+      <div class="row">
+          <div class="col-lg-12">
+            <div>
+                <h1 id="rodutH1" onmouseover="mouseOver2()" onmouseout="mouseOut2()">Rotukategoriat</h1>
             </div>
-          
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
+            <div>
+                <h3 id="rodutH3" >Rotukissat on jaettu turkin pituuden, rakenteen yms. perusteella neljään eri kategoriaan.</h3>           
+            </div>
+          </div>
+      </div>
+      <!-- Accordion alkaa-->
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                     Kategoria 1 rodut:
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                   <div class="accordion-body">
                     Exotic <br>
                     Persialainen <br>
@@ -64,15 +70,15 @@
                     Ragdoll <br>
                     Turkkilainen Van
                   </div>
-                </div>
               </div>
+          </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                     Kategoria 2 rodut:
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
                     American curl <br>
                     LaPerm <br>
@@ -80,15 +86,15 @@
                     Neva Masquerade <br>
                     Norjalainen metsäkissa
                   </div>
-                </div>
               </div>
+          </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                     Kategorian 3 rodut:
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                   <div class="accordion-body">
                     Bengali <br>
                     Burma <br>
@@ -96,15 +102,15 @@
                     Cymric <br>
                     Kartusiaani
                   </div>
-                </div>
               </div>
+            </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
                     Kategorian 4 rodut:
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                   <div class="accordion-body">
                     Abessiinialainen <br>
                     Balineesi <br>
@@ -112,21 +118,21 @@
                     Don sfinx <br>
                     German rex
                   </div>
-                </div>
               </div>
             </div>
           </div>
-         
+        </div>   
+      <!-- accordion loppuu-->    
     </div>
+    <!-- footer alkaa-->
     <footer id="footer" class="bg-light text-center text-lg-start">
-      <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         Juha Jauhiainen
         Web-tekniikat 2022
       </div>
-      <!-- Copyright -->
     </footer>
-
+    <!--footer loppuu-->
+    <!--Bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
