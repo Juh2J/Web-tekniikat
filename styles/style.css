@@ -33,6 +33,20 @@ p {
   color: black;
 }
 
+#rodutH1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#rodutH3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#infoTxt {
+  text-align: center;
+}
+
 #restApi {
   text-align: center;
   font-size: 27px;
@@ -44,10 +58,6 @@ p {
   margin-top: 20px;
   font-size: 20px;
   color: black;
-}
-
-#navbarNav {
-  color: aqua;
 }
 
 #firstCircle {
@@ -75,24 +85,18 @@ p {
 #frontClick1 {
   background-color: #bbfc95;
   color: black;
+  margin: 10px;
 }
 
 #frontClick2 {
   background-color: #bbfc95;
   color: black;
+  margin: 10px;
 }
 
 #newFact {
   color: black;
   background-color: #bbfc95;
-}
-
-#button1 {
-  margin: 10px;
-}
-
-#button2 {
-  margin: 10px;
 }
 
 #navbar {
@@ -126,28 +130,12 @@ p {
   margin: 40px;
 }
 
-.btn {
-  color: #bbfc95;
-}
-
 .accordion-body {
   background-color: #f2e68f;
 }
 
 .accordion-button.collapsed {
   background-color: #bbfc95;
-}
-
-#rodutH1 {
-  text-align: center;
-}
-
-#rodutH3 {
-  text-align: center;
-}
-
-#infoTxt {
-  text-align: center;
 }
 
 .btn.btn-success {
