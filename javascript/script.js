@@ -3,7 +3,7 @@ function cat1() {
 
 document.querySelector("#catPicture").innerHTML="";
 
-document.querySelector("#showCat").innerHTML = "<span>Persialainen</span> on kotikissarotu, joka tunnetaan pitkäkarvaisuudestaan ja lyhyestä kuonostaan.";
+document.querySelector("#showCat").innerHTML = "<span>Persialainen</span> on kotikissarotu, joka tunnetaan pitkäkarvaisuudestaan ja lyhyestä kuonostaan.(www.wikipedia.fi)";
 
 let img = document.createElement("img");
 img.src = "../pictures/persialainen.jpg";
@@ -16,7 +16,7 @@ function cat2() {
 
 document.querySelector("#catPicture").innerHTML="";
 
-document.querySelector("#showCat").innerHTML = "<span>American Curl</span> Rodulle on tyypillistä erikoisen näköiset korvat, jotka kiertyvät taakse poispäin kasvoista.";
+document.querySelector("#showCat").innerHTML = "<span>American Curl</span> Rodulle on tyypillistä erikoisen näköiset korvat, jotka kiertyvät taakse poispäin kasvoista.(www.wikipedia.fi)";
 
 
 let img = document.createElement("img");
@@ -30,7 +30,7 @@ function cat3() {
 
 document.querySelector("#catPicture").innerHTML="";
 
-document.querySelector("#showCat").innerHTML = "<span>Bengali</span>Tyypillistä bengalille ovat lihaksikas ja pitkänomainen vartalo ja pienehkö pää suhteessa vartaloon.";
+document.querySelector("#showCat").innerHTML = "<span>Bengali</span>Tyypillistä bengalille ovat lihaksikas ja pitkänomainen vartalo ja pienehkö pää suhteessa vartaloon.(www.wikipedia.fi)";
 
 let img = document.createElement("img");
 img.src = "../pictures/bengal.jpg";
@@ -43,7 +43,7 @@ function cat4() {
 
 document.querySelector("#catPicture").innerHTML="";
 
-document.querySelector("#showCat").innerHTML = "<span>Abessiinialainen</span> on leikkisä ja hieman pienikokoista puumaa muistuttava kissarotu. Se on yksi vanhimmista tunnetuista kissaroduista, ja sen tunnusmerkki on turkin ticking-kuviointi.";
+document.querySelector("#showCat").innerHTML = "<span>Abessiinialainen</span> on leikkisä ja hieman pienikokoista puumaa muistuttava kissarotu. Se on yksi vanhimmista tunnetuista kissaroduista, ja sen tunnusmerkki on turkin ticking-kuviointi.(www.wikipedia.fi)";
 
 let img = document.createElement("img");
 img.src = "../pictures/abessiinialainen.jpg";
